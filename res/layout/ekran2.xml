@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/f_header"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:text="BİLBİLEBİLİRSEN"
+        android:textColor="#10845a"
+        android:textStyle="bold"
+        android:ellipsize="none" android:shadowColor="#ffffff" android:shadowDx="3" android:shadowRadius="3" android:shadowDy="3" android:textSize="30dp"/>
+
+    <TextView
+        android:id="@+id/besmele"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:textColor="#ff0000"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/txt_soru"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:shadowColor="#ffffff"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:text="Large Text"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#b6a426"
+        android:textSize="14dp" />
+
+    <RadioGroup android:id="@+id/radioGroup1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+
+        <RadioButton android:text="RadioButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/radio1"></RadioButton>
+
+        <RadioButton android:text="RadioButton" android:id="@+id/radio2" android:layout_width="wrap_content" android:layout_height="wrap_content"></RadioButton>
+
+        <RadioButton android:text="RadioButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/radio3"></RadioButton>
+
+        <RadioButton android:text="RadioButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/radio4"></RadioButton>
+
+    </RadioGroup>
+    
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10" android:layout_gravity="right" android:layout_marginRight="20dp" android:visibility="invisible" android:numeric="decimal" android:singleLine="true">
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/onay"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:text="sonkararım"
+        android:textColor="#10845a"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+</LinearLayout>
